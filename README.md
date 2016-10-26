@@ -1,3 +1,5 @@
+Fork of go-metrics that only includes support for Histograms with float64s.
+
 go-metrics
 ==========
 

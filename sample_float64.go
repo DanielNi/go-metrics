@@ -8,6 +8,8 @@ import (
 	"time"
 )
 
+const rescaleThreshold = time.Hour
+
 type SampleFloat64 interface {
 	Clear()
 	Count() int64
